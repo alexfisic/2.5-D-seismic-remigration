@@ -1,0 +1,40 @@
+C 1 CLIENT REPSOL SINOPEC         COMPANY                       CREW NO R_0066  
+C 2 LINE 0066-0038          AREA R_0066_CAMPOS_1A                               
+C 3 REEL NO. 304988   DAY-START OF REEL     YEAR      OBSERVER                  
+C 4 INSTRUMENT  MFG            MODEL            SERIAL NO                       
+C 5 DATA TRACES/RECORD    48  AUXILIARY TRACES/RECORD  0      CDP FOLD 24       
+C 6 SAMPLE INTERVAL  10m    SAMPLES/TRACE 601  BITS/IN      BYTES/SAMPLE 4      
+C 7 RECORDING FORMAT        FORMAT THIS REEL ANP1B MEASUREMENT SYSTEM METRIC    
+C 8 SAMPLE CODE FLOATING PT                                                     
+C 9 GAIN TYPE IFP                                                               
+C10 FILTERS LO 8Hz HI 90Hz                                                      
+C11 SOURCE TYPE AIRGUN      NUMBER/POINT 01     POINT INTERVAL 66.6m            
+C12     PATTERN                            LENGTH        WIDTH                  
+C13 GEOPHONES PER GROUP      SPACING                                            
+C14    STREAMERS  1     PER TRACES 48      LENGTH 3200m  WIDTH      COMP        
+C15 SPREAD OFFSET         MAX DISTANCE        GROUP INTERVAL                    
+C16                                                                             
+C17                                                                             
+C18 TRACES SORTED BY CDP                                                        
+C19 AMPLITUDE RECOVERY                                                          
+C20 MAP PROJECTION   UTM               ZONE ID 24S   COORDINATE UNITS METERS    
+C21 PROCESSING REFORMATTED FROM WESTERN CODE 4 BY DPTS 24-SEP-1999 09:58:08     
+C22 PROCESSING GEOIMAGING SOLUTIONS 2013 AND REPSOL SINOPEC BRASIL 2016         
+C23 PROCESSING HISTORY: 2D FINAL P-WAVE VELOCITY MODEL MIGRATED P-P             
+C24 1. SEVEN VMB ITERATIONS                                                     
+C25 2. FULL WAVEFORM INVERSION WITH INITIAL VELOCITY MODEL ITERATION 7          
+C26 3. OUTPUT TO SEGY STANDARD ANP1B                                            
+C27                                                                             
+C28                                                                             
+C29                                                                             
+C30                                                                             
+C31 SEGY HEADER: CDP (I,4,21) REC_ELEV (I,4,41) SRC_DEPTH (I,4,49)              
+C32 SRC_X (I,4,73) SRC_Y (I,4,77) REC_X (I,4,81) REC_Y (I,4,85)                 
+C33 ILINE (I,4,221) XLINE (I,4,225)                                             
+C34                                                                             
+C35                                                                             
+C36 SP/CDP RELATION 1/2                                                         
+C37 SHOT 1-1586        CDP 1-3171                                               
+C38 CENTRAL MERIDIAN -39                                                        
+C39 DATUM SIRGAS-2000          DATUM CODE 3        PROJECTION CODE 1            
+C40 END EBCDIC                                                                  

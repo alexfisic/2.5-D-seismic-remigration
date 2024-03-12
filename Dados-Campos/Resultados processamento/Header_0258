@@ -1,0 +1,40 @@
+C01 CLIENT WESTERNGECO            COMPANY GECO-PRAKLA              CREW N0 0258 
+C02 LINE 0258-3001   AREA R0258_2D_SPEC_PSDM_BM_C                               
+C 3 REEL NO           DAY-START OF REEL     YEAR      OBSERVER                  
+C04 INSTRUMENT  MFG GECO-PRAKLA MODEL TRIACQ 1.6.3 SERIAL NO 8015               
+C 5 DATA TRACES/RECORD   160  AUXILIARY TRACES/RECORD       0 CDP FOLD   106    
+C 6 SAMPLE INTERVAL  5.00   SAMPLES/TRACE  3201 BITS/IN      BYTES/SAMPLE  4    
+C07 RECORDING FORMAT SEG-Y  FORMAT THIS REEL ANP1B  MEANSUREMENT SYSTEM METERS  
+C 8 SAMPLE CODE FLOATING PT                                                     
+C 9 GAIN  TYPE                                                                  
+C10 FILTERS LOW-CUT 3 Hz - 18 dB/OCT - HIGH-CUT 200 Hz - 406 dB/OCT             
+C11 SOURCE TYPE AIR GUN     NUMBER/POINT         POINT INTERVAL 37.5            
+C12     PATTERN 8 AIRGUNS X 3 SUBARRAYS    LENGTH 15M    WIDTH 16M              
+C13 GEOPHONES PER GROUP 16   SPACING 27.34M                                     
+C14    STREAMERS 1      PER TRACES 320     LENGHT 8000   WIDTH                  
+C15 SPREAD OFFSET 180     MAX DISTANCE 8100   GROUP INTERVAL 12.5M              
+C16                                                                             
+C17                                                                             
+C18 TRACES SORTED BY CMP DOMAIN                                                 
+C19 AMPLITUDE RECOVERY NOT APPLIED                                              
+C20 MAP PROJECTION UTM                  ZONE ID 23S     COORDINATE UNITS METERS 
+C21 PROCESSING BY: WESTERNGECO - ANP AUT. #336-2008 (PRORROGADA em 2010)        
+C22 PROCESSING BY: **** FINAL PRE-STACK DEPTH MIGRATION VELOCITY FIELD ****     
+C23 Reformat/ Resample to 4ms/ Trace Edits/ Nav.Merge/ 2D Geometry/ Designatute/
+C24 Geometric Spreading Amplitude Compensation/ Swell Noise Attenuation/ Decon/ 
+C25 Time Variant Filter/ CMP Sort/ SI Removal/ Water Velocity WLS Radon/        
+C26 Primary Velocity WLS Radon/ K-Filter/ KPSDM/ Sediment Velocity Update Tomo/ 
+C27 K-D Migration/ Interpret TOC/ K-D Mig with TOC Flood Model (4500m/s)/       
+C28 Velocity Update with Tomo/ K-D Mig/ Interpret TOS/ Wave Equation Mig with   
+C29 Salt Flood Model/ Interpret BOS K-D Mig/ Tomo Update/                       
+C30 SEG-Y (ANP1B FORMAT).                                                       
+C31                                                                             
+C32                                                                             
+C33 *********************** SEG-Y TRACE HEADERS ************************        
+C34 BYTE 17-20 SHOTPOINT ÕI4å, BYTE 197-200 SHOTPOINT ÕR4å                      
+C35 BYTE 181-184 XCOORD, 185-186 YCOORD MIDPOINT, 189-192 WATER DEPTH AT MIDPT  
+C36 SP/CMP RELATION: 1/3 - Sampling Depth 5M  -  Maximum Depth 16 KM            
+C37 LINE 0258-3001 - FIRST SHOTPOINT NUMBER ON CMP - 0001                       
+C38 CENTRAL MERIDIAN 45W                                                        
+C39 DATUM WGS-84               DATUM CODE 002      PROJECTION CODE 001          
+C40 END EBCDIC                                                                  

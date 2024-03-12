@@ -1,0 +1,11 @@
+401,2750,1                                                          !ntrace,ntime,n_gather
+401,601,401,834                                                     !Dimensões do modelo:nx,nz,nx_mig,nz_mig
+0.0,0.0,0.0,0.0
+0.0,0.0,0.0,170,10,60,1,10                                          !x0s,x0r,h,ih,fr,fr_final,perc,dfr
+nankai_dvel.dat                                                     !Arquivo modelo de velocidade: (nx,nz) [m/s] (Se em m/s, no programa deve-se dividir por 1000!)
+0.0,0.0,0.0,0.0                                                     !x0mod,z0mod,x0m,z0m
+16.67,16.67,0.004,16.67,16.67,16.67,16.67,12.0                      !dx,dz,dt,dxtrace,dxs,dxr,dx_mig,dz_mig
+1500,1500,0.827,5,2                                                 !Velocidade(c),c_0,beta,flag (1-MEIO HOMOG.;2-MEIO GRAD_CONST.;3-MIG. KIRCH. TRAD.;4-MIG.KIRCH.TRAD_GRAD;5-EIKONAL),flag2
+2                                                                   ! Tipo de função-peso:(1) CINEMÁTICA; (2) 2D; (3) 2.5D; (4) ZONA DE FRESNEL PROJETADA; (5) TEMPO DE TRÂNSITO; (6) ÂNGULO DE INCIDÊNCIA; (7) PMC (ponto médio comum); (8) raiof-projetado; (9) raiof-profundidade; (10) MEIA-LARGURA
+nankaii.dat                                                         !Arquivo de sismograma 
+rm.dat,b.dat   
