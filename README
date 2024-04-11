@@ -1,0 +1,7 @@
+This repository contains the following folders:
+
+Data-Campos: all files containing the real seismic data used in the paper
+Numerics: all files containing synthetic 2-D datasets
+Presalt: all synthetic 2-D files related to the presalt model discussed in the paper
+
+In each of these folders, a new README will guide through the running steps of each code.
