@@ -1,0 +1,8 @@
+In this folder we included the folowing files:
+
+1 - The headers extracted frome the SEGY files of lines R_066 and 0258, respectively. 
+2 - The remigrated results of 3 separated sections of the line R_066.
+3 - The remigrated result of line 0258 with parameter nl=4.
+4 - File campos_7hs_merge.dat is the merge of the 3 files described in 2.
+
+The .dat files are for visualization only. 
