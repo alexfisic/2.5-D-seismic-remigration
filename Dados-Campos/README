@@ -21,3 +21,17 @@ Bonus M-files include:
 input depth velocity model velocidade_0258_depth.dat. 
  4 - RMS_0258.m : Computes the RMS velocity field used in all remigration codes. This code 
 must be run only after TTI_028.m.
+ 5 demigra_campos.m : This code computes demigrated sections in the time domain. The input
+files for this code are named teste*.dat and vel_campos*_RMS.dat. The output sections 
+generaed by this code are named as campos*.dat in this repository.
+ 6 - equaliza_amplitues.m : Equalization of amplitude values are realized by this code.
+Normally run after any remigration process descibed in items 1 and 2. The user must specify
+any dumb variable to receive the remigration output result before running this code. It
+works using any section in time, under the same conditions.
+ 7 - halfdif2.m : Performs the half-derivative, Eq. (2) of the paper.
+ 8 - operadores_mig.m and operadores_remig.m : These codes help in calculate one parameter
+called dipflag used in some remigration section. It is the equivalent of the time difference
+of dip discussed in the paper that constrains migration and remigration stacking operators
+in order to avoid or permit the calculation of alias noise.
+ 9 ormsby.m : A bandpass filter.
+ 10 - ricker.m : Calculates the Ricker wavelet.
