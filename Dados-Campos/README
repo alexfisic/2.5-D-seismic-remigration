@@ -1,6 +1,23 @@
 This folder contains the main files regarding remigration process using real data:
 
 The main M-files to be considered are:
+
  1 - teste_terceiro_campos.m : Remigration is performed using Eq. (1) of the paper
  2 - teste_RMfbrutaFO_campos.m : Remigration is performed using Eq. (7) of the paper
-The user must run teste_terceiro_campos.m first to generate the main results, including weighted- and unity-weighted Kirchhoff time-migration, as well as the undermigrated input section to be remigrated. 
+
+The user must run teste_terceiro_campos.m first of all in order to generate the main results, 
+including weighted- and unity-weighted Kirchhoff time-migration, 
+as well as the undermigrated input section to be remigrated along the same code. 
+After this code has been run, teste_RMfbrutaFO_campos.m can be run, in which only Eq. (7)
+will be calculated. In this release, the codes are set to generate the results referring to
+2-D line 0258-3001, as discussed in the paper. Files named remigrado_0258_***.dat along with files 
+named vel_0258_RMS***.dat can be equally used as input in both codes. Notice, however, that
+the input files are the ones that generated the figures seen in the paper for this
+specific line.
+
+Bonus M-files include:
+
+ 3 - TTI_0258.m : This code computes the interval traveltimes values (TTI) derived from the 
+input depth velocity model velocidade_0258_depth.dat. 
+ 4 - RMS_0258.m : Computes the RMS velocity field used in all remigration codes. This code 
+must be run only after TTI_028.m.
