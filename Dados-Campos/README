@@ -1,3 +1,4 @@
+All codes written by Carlos A. S. Ferreira.
 This folder contains the main files regarding remigration process using real data:
 
 The main M-files to be considered are:
@@ -26,7 +27,8 @@ files for this code are named teste*.dat and vel_campos*_RMS.dat. The output sec
 generaed by this code are named as campos*.dat in this repository.
  6 - demigra_campos_depth2time.m : This is a experimental code in which the depth-migrated
 section of line 0258-3001 is Kirchhoff demigrated to generate a seismic input section. 
-Accuracy is not guaranteed under the salt body.
+Accuracy is not guaranteed under the salt body. ASCII files linha_0258_depth.dat and
+velocidade_0258_depth.dat are input for this code.
  7 - equaliza_amplitues.m : Equalization of amplitude values are realized by this code.
 Normally run after any remigration process descibed in items 1 and 2. The user must specify
 any dumb variable to receive the remigration output result before running this code. It
@@ -36,5 +38,11 @@ works using any section in time, under the same conditions.
 called dipflag used in some remigration section. It is the equivalent of the time difference
 of dip discussed in the paper that constrains migration and remigration stacking operators
 in order to avoid or permit the calculation of alias noise.
- 10 ormsby.m : A bandpass filter.
+ 10 ormsby.m : A bandpass filter. Input: f1, f2, f3 and f4 (corner frequencies).
  11 - ricker.m : Calculates the Ricker wavelet.
+ 12 - transforma_vint2vrms.m : Transforms interval velocities into RMS velocities in the time
+domain. This code was specifically written to generate the RMS velocity fields to each separate
+subsection of the line R066.
+
+There are two SEGY files corresponding to the public-domain line R066. Files SimicaUno.dat and
+Velocidades.dat are ASCII files of the seismic and velocity field, respectively. 
