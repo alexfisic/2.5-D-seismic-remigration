@@ -1,0 +1,6 @@
+This folder contains the main files regarding remigration process using real data:
+
+The main M-files to be considered are:
+ 1 - teste_terceiro_campos.m : Remigration is performed using Eq. (1) of the paper
+ 2 - teste_RMfbrutaFO_campos.m : Remigration is performed using Eq. (7) of the paper
+The user must run teste_terceiro_campos.m first to generate the main results, including weighted- and unity-weighted Kirchhoff time-migration, as well as the undermigrated input section to be remigrated. 
