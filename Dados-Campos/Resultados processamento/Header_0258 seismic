@@ -31,7 +31,7 @@ C30 SEG-Y (ANP1B FORMAT).
 C31                                                                             
 C32                                                                             
 C33 *********************** SEG-Y TRACE HEADERS ************************        
-C34 BYTE 17-20 SHOTPOINT ÕI4å, BYTE 197-200 SHOTPOINT ÕR4å                      
+C34 BYTE 17-20 SHOTPOINT Ã•I4Ã¥, BYTE 197-200 SHOTPOINT Ã•R4Ã¥                      
 C35 BYTE 181-184 XCOORD, 185-186 YCOORD MIDPOINT, 189-192 WATER DEPTH AT MIDPT  
 C36 SP/CMP RELATION: 1/3 - Sampling Depth 5M  -  Maximum Depth 16 KM            
 C37 LINE 0258-3001 - FIRST SHOTPOINT NUMBER ON CMP - 0001                       
