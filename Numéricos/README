@@ -1,0 +1,19 @@
+This folder contains codes for numerical modeling, migration and remigration.
+
+The following M-files are used:
+
+ 1 - primeiro.m : 2-D zero-offset/finite-offset modeling, migration and remigration. All parameters 
+are user-specified. They may be freely modified. Migration and remigration here are performed in the
+depth domain.
+ 2 - segundo.m : 2-D zero-offset modeling, migration and remigration. Migration and remigration are
+performed in the time domain. Lines 42 and 44 of the code determine the velocity field of interest,
+which can be constant or with lateral variation. The user must choose one of the options and comment
+the other to run the code for each case.
+ 3 - terceiro.m : 2-D finite-offset modeling, migration and remigration. Migration and remigration are
+performed in the time domain. Lines 59 and 61 of the code determine the velocity field of interest,
+which can be constant or with lateral variation. The user must choose one of the options and comment
+the other to run the code for each case. 
+ 4 - RMfbrutaZO.m and RMfbrutaFO.m : 2-D zero-offset and finite-offset remigration only of the latter
+codes, each one using a numeric version of Eq. (7) (double integral) of the paper.
+
+The other M-files are bonus.
