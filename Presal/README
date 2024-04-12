@@ -1,0 +1,17 @@
+The main files in this folder are:
+
+ 1 - terceiro_presal.m : Migration and remigration of the presal data named kir_presal.dat.
+Eq. (1) of the paper is used here. The RMS velocity for this code is given by the file
+named vel_migrat_presal.dat. Two other velocity model may be used in this code to generate
+results regarding to the reference Oliveira and Ferreira (2009).
+ 2 - teste_terceiro_presal.m : Performs the same task as the latter code using as input
+the same ASCII files. Here we add the Beylkin determinant as optional weight-function.
+ 3 - teste_RMfbrutaFO_presal.m : Performs only remigration here, using Eq. (7) of the paper.
+The Beykin determinant is used as optional weight-function here.
+
+Bonus M-files in this folder are: equaliza_amplitudes.m; halfdif2.m; operadores_mig.m;
+operadores_remig.m; ormsby.m; plotseis.m; ricker.m.
+
+The M-file demigra_presal.m is a bonus regarding the interest of the user in perform 
+Kirchhoff demigration in the time domain. Input files for this latter code are:
+migrado_presal.dat and vel_migrat_presal.dat.
